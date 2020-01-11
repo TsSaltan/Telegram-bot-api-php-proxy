@@ -133,7 +133,7 @@
 			<div class="course-info">
 				<h6>What is it?</h6>
 				<h2>Proxy for Telegram Bot API</h2>
-				<p>URI for using this proxy: <b id="domain" onclick="selectText(this)"><?php echo $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?></b></p>
+				<p>URI for using this proxy: <b id="domain" onclick="selectText(this)">https://<?php echo $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?></b></p>
 				<a class="btn" href="https://github.com/TsSaltan/Telegram-bot-api-php-proxy">View at GitHub</a>
 			</div>
 		</div>
