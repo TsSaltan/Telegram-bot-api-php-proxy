@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteRule ^bot.*$ tgproxy.php [L]
